@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+}
+
+#suggestions{
+  height: 25px; width:100%;
+  text-align: center;
+  
+}
+#pred1, #pred2, #pred3 {
+  display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 20px;
+  padding: 25px;
+  border-radius: 4px;
+  background-color:rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 10px 10x 25px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 25px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 25px 0px rgba(0,0,0,0.75);
+}
+
+body {
+  font-size: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Quicksand;
+  height: 100vh;
+  max-height: 100vh;
+  overflow: hidden;
+  background-color: #85FFBD;
+  background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+  color: #424242;  
+}
+
+body #text {
+  max-height: 10rem!important;
+  border-radius: 4px;
+  background-color:rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 10px 10x 25px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 25px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 25px 0px rgba(0,0,0,0.75);
+}
+
+body #keyboard, body kbd {
+  margin-top: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background: none;
+  text-align: center;
+  font-family: Quicksand;
+}
+body kbd {
+  flex: 1;
+}
+body .keyboard-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+}
+body div#text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  width: 20em;
+  height: 44vh;
+  max-height: 44vh;
+  font-size: 3em;
+  margin-bottom: 4vh;
+  text-align: center;
+  overflow: auto;
+  align-self: flex-end;
+  position: relative;
+}
+body #keyboard {
+  width: 56em;
+  padding: .4em .4em .8em;
+  background-color:rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 10px 10x 25px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 25px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 25px 0px rgba(0,0,0,0.75);
+}
+body #keyboard kbd {
+  line-height: 3.2em;
+  height: 3.2em;
+  width: 3.2em;
+  margin: .25em;
+  text-align: center;
+  color: #C6EF9E;
+  background-color: #424242;
+  transition: background, position, top, box-shadow .1s;
+  box-shadow: 0px 2px 0px #000000;
+}
+body #keyboard kbd.long {
+  flex-grow: 1;
+  flex: 2;
+}
+body #keyboard kbd.longer {
+  flex-grow: 2;
+  flex: 3;
+}
+body #keyboard kbd.spacebar {
+  flex-grow: 14;
+  flex: 6;
+}
+body #keyboard .operationKey {
+  text-transform: none !important;
+}
+body #keyboard .pressed {
+  background: #C6EF9E;
+  color: #2d2d2d;
+  position: relative;
+  top: 2px;
+  box-shadow: none;
+}
+body pre {
+  height: 3vh;
+  line-height: 3vh;
+}
+body .uppercase kbd {
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 10px;
+  }
+}
+@media (min-width: 960px) {
+  body {
+    font-size: 12px;
+  }
+}
+@media (min-width: 1080px) {
+  body {
+    font-size: 14px;
+  }
+}
