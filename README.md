@@ -3,13 +3,13 @@
 
 **How to run the program:**
 
-#Step 1:
+# Step 1:
 Run the python script server.py and terminate the program after Step 3.
 
-#Step 2:
+# Step 2:
 Open the index.html on any web browser
 
-#Step 3:
+# Step 3:
 Follow the instructions displayed upon opening the page and the predicted words will be displayed on top of the keyboard.
 
 
